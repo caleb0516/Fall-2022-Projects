@@ -1,0 +1,9 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main(){
+    vector<int> myvec = {1,2,3,54,3,25};
+    int max = *max_element(myvec.begin().myvec.end());
+    cout << max;
+}
